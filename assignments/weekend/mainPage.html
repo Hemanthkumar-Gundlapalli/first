@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture</title>
+    <link rel="stylesheet" href="/fontawesome.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="/crown-solid.svg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    
+</head>
+<body>
+    <header class="bg-secondary">
+        <h1>Royal Furnitures</h1>
+    </header>
+    <!-- navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle  text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                sort
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">based on rating</a>
+                <a class="dropdown-item" href="#">price: high to low</a>
+                <a class="dropdown-item" href="#">price: low to high</a>
+              </div>
+            </li>
+            
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+      <!-- carousal -->
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+              <img src="/images/carousal/pexels-patryk-kamenczak-775219.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/carousal/pexels-eric-montanah-1350789.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/images/carousal/pexels-pixabay-276583.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div>
+
+      <!-- featured products -->
+      <h4 class="product-heading mb-5 mt-5">featured products</h4>
+
+       <!-- grid -->
+       <div class="container" margin-bottom="15px">
+        <div class="row">
+          <div class="col ml-5">
+            <!-- cards -->
+            <div class="card" style="width: 18rem;">
+                <img src="/images/products/product1/pexels-terry-magallanes-2631746.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <a href="/product1.html">
+                    <button type="button" class="btn btn-secondary">View Details</button>
+                  </a>
+                  
+                </div>
+              </div>
+
+          </div>
+          <div class="col">
+             <!-- cards -->
+             <div class="card" style="width: 18rem;">
+                <img src="/images/products/product2/pexels-jean-van-der-meulen-1454806.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                    
+                  <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
+                        View Details
+                      </button>
+
+                      <!-- Modal -->
+                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Message</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              Something went wrong, please try again later.
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  
+                </div>
+              </div>
+
+          </div>
+          <div class="col">
+             <!-- cards -->
+             <div class="card" style="width: 18rem;">
+                <img src="/images/products/product3/pexels-pixabay-276528.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <a href="/product2.html">
+                    <button type="button" class="btn btn-secondary">View Details</button>
+                  </a>
+                  
+                </div>
+              </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col ml-5 mt-3">
+            <!-- cards -->
+            <div class="card" style="width: 18rem;">
+                <img src="/images/products/product4/pexels-max-vakhtbovych-6587847.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
+                        View Details
+                      </button>
+
+                      <!-- Modal -->
+                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Message</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              Something went wrong, please try again later.
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  
+                </div>
+              </div>
+
+          </div>
+          <div class="col mt-3">
+             <!-- cards -->
+             <div class="card" style="width: 18rem;">
+                <img src="/images/products/product5/pexels-pixabay-276534.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <a href="">
+                    <button type="button" class="btn btn-secondary">View Details</button>
+                  </a>
+                  
+                </div>
+              </div>
+
+          </div>
+          <div class="col mt-3">
+             <!-- cards -->
+             <div class="card" style="width: 18rem;">
+                <img src="/images/products/product6/pexels-dmitry-zvolskiy-2082090.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <a href="">
+                    <button type="button" class="btn btn-secondary">View Details</button>
+                  </a>
+                  
+                </div>
+              </div>
+
+          </div>
+        </div>
+      </div>
+      
+      
+
+     <!-- Script Code -->
+     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+     
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            background-color: gray;
+            text-align: center;
+        }
+        footer{
+            background-color: gray;
+            text-align: center;
+        }
+        label, div{
+            margin-bottom: 20px;
+        }
+       
+    </style>
+</head>
+<body>
+    <header>Product details</header>
+    <form>
+        <table>
+
+            <div>
+                <label>Product Name:</label>
+                <input type="text" name="Enter product name" required minlength="5" >
+            </div>
+            <div>
+    
+                <label>Product Description:</label>
+                <input type="text" name="Enter product name" required minlength="4" maxlength="100">
+            </div>
+            <div>
+                <label>Support Email:</label>
+                <input type="email" name="Enter product name" required>
+            </div>
+            <div>
+                <label>Seller Contact:</label>
+                <input type="text" name="Enter product name" value="1234567890" readonly>
+            </div>
+            <div>
+                <label>Launch Date:</label>
+                <input type="date" name="Enter product name" required>
+            </div>
+            <div>
+                <label>Product Colours:</label>
+                <input type="checkbox" name="colour" >Red
+                <input type="checkbox" name="colour" >Green
+                <input type="checkbox" name="colour" >Blue
+                <input type="checkbox" name="colour"
+                required>Black
+            </div>
+            <div>
+                <label>Product Size:</label>
+                <select name="size" required>
+                    <option value="default">select</option>
+                    <option value="SM">SM</option>
+                    <option value="MD">MD</option>
+                    <option value="LG">LG</option>
+                    <option value="XL">XL</option>
+                </select>
+            </div>
+            <div>
+                <label>Product image:</label>
+                <input type="file" name="" id="">
+            </div>
+            <div>
+                <label>In Stock</label>
+                <input type="radio" name="stock" required>yes
+                <input type="radio" name="stock" required>no
+            </div>
+            <div>
+                <input type="submit">
+                <input type="reset">
+            </div>
+        </table>
+    </form>
+    <footer>@copyright</footer>
+</body>
+</html>

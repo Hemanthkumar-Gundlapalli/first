@@ -1,0 +1,22 @@
+header h1{
+    background-color: rgb(173, 182, 181);
+    height: 50px;
+    text-align: center;
+}
+.col-sm{
+    margin-bottom: 10px;
+}
+.card-img-top{
+    width: 350px;
+    height: 200px;
+    overflow: hidden;
+}
+p, .product-heading{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+a, .product-details{
+    text-align: center;
+    margin: auto;
+}
